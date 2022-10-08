@@ -1,0 +1,6 @@
+local Player   = game.Workspace:WaitForChild("Gamer100_Dev)
+local Humanoid = Player:WaitForChid("Humanoid")
+while wait(1) do
+    Humanoid.MaxHealth = 1000000000000000000000
+    Humanoid.Health    = 1000000000000000000000
+end
